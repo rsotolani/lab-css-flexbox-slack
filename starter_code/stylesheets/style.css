@@ -8,3 +8,325 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* Iteração 1 768px */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+body {
+    width: 768px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav {
+    background-color: #540B51;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.inicio > ul {
+    display: none;
+}
+
+
+.menu > button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+.menu > button > img {
+    background-color: #540B51;
+    width: 35px;
+}
+
+
+.header {
+    background-color: #540B51;
+    color: white;
+    width: auto;
+}
+
+/* Textão.... */
+.hero-h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.p {
+    font-size: 1.8rem;
+    margin: 30px;
+    color: white;
+    text-align: center;
+}
+
+.laranja {
+    color: #ECB12F;
+    font-size: 1.8rem;
+}
+
+
+/* botões de sign up */
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup-email {
+    width: 90%;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #540B51;
+    height: 80px;
+    border-radius: 3%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.signup-google {
+    display: flex;
+    height: 80px;
+    width: 90%;
+    border-radius: 2%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.signup-google > button > img {
+    height: 80%;
+    background-color: white;
+    margin-right: 25%;
+}
+
+.signup-google > button {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #4285F4;
+    width: 90%;
+    padding-left: 10px;
+    text-align: center;
+
+}
+
+.signup-google > button > span {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    background-color: #4285F4;
+}
+
+
+/* Secao Trusted */
+
+#screenshot {
+    max-width: 100%;
+}
+
+.trusted {
+    background-color: #F3EAE2;
+    height: 300px;
+    padding: 20px;
+}
+
+.trusted > p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 20px;
+}
+
+.parceiros {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+}
+.parceiros > img {
+    height: 60px;
+    margin: 20px;
+}
+
+.imagem {
+    width: 768px;
+}
+
+/* secao Team together */
+.blocos {
+    background-color: #F3EAE2;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.blocos > h2 {
+    text-align: left;
+    font-size: 3rem;
+    margin: 30px;
+}
+
+.blocos > p {
+    text-align: left;
+    font-size: 1.8rem;
+    margin: 30px;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+}
+
+ .blocos > span > a {
+    text-align: left;
+    color: #4285F4;
+    font-size: 1.8rem;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.scale {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.scale > h3 {
+    font-size: 3.5rem;
+    margin: 30px;
+}
+
+.scale > p {
+    font-size: 1.8rem;
+    margin: 30px;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.botaoroxo {
+    width: 90%;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: #540B51;
+    color: white;
+    height: 80px;
+    border-radius: 3%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.botaobranco {
+    width: 90%;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: white;
+    color: #540B51;
+    height: 80px;
+    border-radius: 3%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.numero {
+    color: #540B51;
+    font-size: 5rem;
+}
+
+.scale > ul > li > p {
+    font-size: 1.4rem;
+    margin: 30px;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 60px;
+    background-color: #540B51;
+    min-height: 500px;
+    border-radius: 0 0 20% 20%;
+}
+
+.welcome > h3 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 3.7rem;
+    margin: 30px;
+    color: white;
+}
+
+.welcome > p {
+    font-size: 1.8rem;
+    margin: 30px;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+
+.menufooter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menufooter > ul > li:first-of-type {
+    font-size: 1.4rem;
+    margin: 20px;
+    color: black;
+    margin-top: 40px;
+}
+
+.menufooter > ul > li {
+    font-size: 1.3rem;
+    margin: 20px;
+    color: #454245;
+    list-style: none;
+}
+
+.linksfinais > li {
+    font-size: 1.4rem;
+    margin: 50px;
+    color: black;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.linksfinais > li:last-of-type {
+    color: #4285F4;
+}
+
+.redessociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 100px 40px;
+}
+
+.redessociais > li > i {
+    font-size: 3rem;
+    
+}
+
+
+/* Iteração 2 */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Iteração 3 */
+@media all and (min-width: 1025px) and (max-width: 1440px) {
+}
+
+/* Iteração 4 */
+@media all and (min-width: 1441px) {
+}
